@@ -12,23 +12,27 @@
         <img class="main-photo" src="images/peter-herrmann.jpg">
     </figure>
     <div class="main-block">
-        <h1 class="title">Sign In</h1>
-        <form>
-            <label for="username" id="username">Email (phone or mobile accounts)</label>
+        <div class="padding">
+            <h1 class="title">Sign In</h1>
+            <form class="inside-block">
+                <label for="username" id="username">Email (phone or mobile accounts)</label>
+                <br>
+                <input type="text" id="enter-email" placeholder="Enter Email">
+                <br>
+                <span><div class="password-link"> 
+                    <label for="password" id="password">Password</label>
+                    <a href="#" id="forgot-password">Forgot Password</a>
+                </div></span>
+                <br>
+                <input type="text" id="password" placeholder="Enter Password">
+                <br>
+            </form>
+            <button onclick="#" id="continue">Continue</button>
             <br>
-            <input type="text" id="enter-email" placeholder="Enter Email">
-            <br>
-            <label for="password" id="password">Password</label>
-            <a href="#" id="forgot-password">Forgot Password</a>
-            <br>
-            <input type="text" id="password" placeholder="Enter Password">
-            <br>
-        </form>
-        <button onclick="#" id="continue">Continue</button>
-        <br>
-        <ul>
-            <li><a href="#" id="help">Need Help?</a></li>
-        </ul>
+            <ul>
+                <li><a href="#" id="help">Need Help?</a></li>
+            </ul>
+        </div>
     </div>
     <div>
         <p>New To Amazon?</p>
@@ -40,9 +44,9 @@
     <footer class="base">
         <div>
             <ul class="list">
-                <li>Conditions of Use</li>
-                <li>Privacy Policy</li>
-                <li>Help</li>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Help</a></li>
             </ul>
             <br>
             &copy 1996-2022, Amazon.com, inc or it's affiliates

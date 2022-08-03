@@ -1,50 +1,39 @@
 .main-photo{
-    width: 26%;
+    width: 32%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.title{
-    margin-left: 25px;
 }
 
 .main-block{
     border: 1px solid black;
-    width: 25%;
+    width: 30%;
     height: 350px;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    position: static;
-    left: 25px;
-}
-
-#username{
-    margin-left: 25px;
 }
 
 input[type=text]{
-    width: 80%;
-    margin-left: 25px;
-    padding: 8px 4px;
+    width: 100%;
+    display: flex;
     box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    justify-content: center;
+    padding: 8px 4px;
 }
 
-#password{
-    margin-left: 25px;
+.password-link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-#forgot-password{
-    left: 200px;
-    position: relative;
-}
 a:link, a:visited{
     color: blue;
     text-align: right;
 }
+
 a:hover, a:active{
     color: orange;
 }
@@ -54,15 +43,15 @@ a:hover, a:active{
     border: 1px solid black;
     color: black;
     position: relative;
-    padding: 10px 161px;
     text-decoration: none;
-    margin: 4px 2px;
-    left: 25px;
-    width: 80%;
+    margin: 2px 2px;
+    height: 30px;
+    width: 100%;
 }
 
 li{
     color: blue;
+    text-align: left;
 }
 
 p{
@@ -91,6 +80,7 @@ footer{
 }
 
 .list{
-    display: inline;
-    color: transparent;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
